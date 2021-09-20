@@ -14,4 +14,4 @@ In package.json:
 
 - yarn add bootstrap
 - yarn add @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
-- yarn  --save @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons
+- npm install --save @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons
