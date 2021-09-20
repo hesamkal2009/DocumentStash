@@ -5,13 +5,14 @@
 - touch config.json
 - touch globalConsts.js
 - yarn add styled-components
-In package.json:
-{
-  "resolutions": {
-    "styled-components": "^5"
-  }
-}
+      In package.json:
+      {
+        "resolutions": {
+          "styled-components": "^5"
+        }
+      }
 
 - yarn add bootstrap
 - yarn add @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
 - npm install --save @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons
+- yarn add react-toastify
