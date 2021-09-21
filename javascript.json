@@ -209,17 +209,17 @@
 		"prefix": ["concom", "connect-component"],
 		"description": "Connects Components to Dispatch and State",
 		"body": [
-			"import { get${2:Capital_Name}s, get${2:Capital_Name}sCount } from '../../app/${1:name}s';",
+			"import { get${2:Name}s, get${2:Name}sCount } from '../../app/${1:name}s';",
 			"import { connect } from 'react-redux';",
-			"import ${2:Capital_Name}s from './${1:name}';",
+			"import ${2:Name}s from './${1:name}';",
 			"",
 			"function mapDispatchToProps(dispatch) {",
 			"    return {",
-			"        get${2:Capital_Name}s: () => {",
-			"            dispatch(get${2:Capital_Name}s());",
+			"        get${2:Name}s: () => {",
+			"            dispatch(get${2:Name}s());",
 			"        },",
-			"        get${2:Capital_Name}sCount: () => {",
-			"            dispatch(get${2:Capital_Name}sCount());",
+			"        get${2:Name}sCount: () => {",
+			"            dispatch(get${2:Name}sCount());",
 			"        },",
 			"    };",
 			"}",
@@ -228,7 +228,7 @@
 			"    return state.entities.${1:name}s;",
 			"}",
 			"",
-			"export const ${2:Capital_Name}sConnect = connect(mapStateToProps, mapDispatchToProps)(${2:Capital_Name}s);"
+			"export const ${2:Name}sConnect = connect(mapStateToProps, mapDispatchToProps)(${2:Name}s);"
 		]
 	},
 	"HK Star As Actions Import": {
