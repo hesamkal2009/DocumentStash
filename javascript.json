@@ -14,7 +14,7 @@
 	// }
 
 	"HK Redux Template": {
-		"prefix": ["dux", "docks", "redocks", "hk-redux-template"],
+		"prefix": ["dux", "ducks", "reducks", "hk-redux-template"],
 		"description": "It's a very neat and sophisticated way of creating redux files following the Docks approach and it really appeals to me",
 		"body": [
 			"//#region //! Default Imports",
@@ -43,7 +43,7 @@
 			"",
 			"    return dispatch(",
 			"        apiCallBegan({",
-			"            url: config.${1:name}s.urls.getALL,",
+			"            url: config.${1:name}s.urls.get,",
 			"            onStart: ${1:name}sRequested.type,",
 			"            onSuccess: ${1:name}sReceived.type,",
 			"            onError: ${1:name}sRequestFailed.type,",
