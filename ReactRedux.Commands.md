@@ -4,7 +4,7 @@
 - yarn add jest @types/jest @babel/core @babel/preset-env babel-jest -D    * Note: jest and babel-jest might cause problems if it is already installed as dependency by another package *
 - touch config.json
 - touch globalConsts.js
-- yarn add styled-components\
+- yarn add styled-components ***install_styled-components_for_BETTER_ISOLATION_DynamicName_themeing_Much_More_IN_SmallToMedium_APPS***\ OR yarn add sass ***install_sass_for_BETTER_PERFORMANCE_IN_LARGE_APPS***\
 `      In package.json:
       {
         "resolutions": {
