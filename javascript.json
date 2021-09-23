@@ -35,7 +35,7 @@
 			"",
 			"//#region //* Action Wrappers",
 			"",
-			"export const callFor${2:Name}s = () => (dispatch, getState) => {",
+			"export const get${2:Name}s = () => (dispatch, getState) => {",
 			"    const { list, lastFetched } = getState().entities.${1:name}s;",
 			"",
 			"    if (list && list.length >= 0) {",
