@@ -58,7 +58,7 @@
 			"//#region //* Selectors",
 			"",
 			"export const select${2:Name}s = createSelector((state) => state.entities.${1:name}s);",
-			"export const select${2:Name}Count = createSelector(",
+			"export const select${2:Name}sCount = createSelector(",
 			"    (state) => state.entities.${1:name}s.list.length",
 			");",
 			"",
