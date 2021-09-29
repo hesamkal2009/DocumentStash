@@ -5,8 +5,10 @@ ___chown or chmod is NOT the solution, because of security-risk.___
 Instead do this, do:
 
 First check, where npm point to, if you call:
-
+<pre>
 npm config get prefix
+</pre>
+
 If /usr is returned, you can do the following:
 
 <pre>
