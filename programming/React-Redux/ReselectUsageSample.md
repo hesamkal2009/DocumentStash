@@ -12,18 +12,18 @@ export default function Posts(props) {
 	const selectPostsForUserId1 = useSelector(selectPostsForUserId(id));
 
 	return (
-		<div>
+		<!-- <div>
 			<h1>{postCount} - Posts In Total</h1>
 			<h2>
-				{selectPostsForUserId1.length} - Posts Are Written By User Id One -{" "}
-				{posts.filter((post) => post.userId === id).length}
+				//{selectPostsForUserId1.length} - Posts Are Written By User Id One -{" "}
+				//{posts.filter((post) => post.userId === id).length}
 			</h2>
 			<ul>
 				{selectPostsForUserId1.map((post) => (
 					<li key={post.id}>{post.title}</li>
 				))}
 			</ul>
-		</div>
+		</div>-->
 	);
 }
 </pre>
