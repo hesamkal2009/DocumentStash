@@ -1,3 +1,4 @@
+<pre>
 export default function Posts(props) {
 	const dispatch = useDispatch();
 
@@ -25,9 +26,9 @@ export default function Posts(props) {
 		</div>
 	);
 }
-_______________________________________________________________________________________________________
-
-
+</pre>
+---
+<pre>
 //#region //* Selectors
 
 export const selectPosts = (state) => state.entities.posts.list;
@@ -39,3 +40,4 @@ export const selectPostsForUserId = (userId) =>
 		(list) => list.filter((post) => post.userId === userId)
 	);
 //#endregion
+</pre>
