@@ -2,3 +2,4 @@
 ---
 
 - yarn add typescript @types/react @types/react-dom @types/node
+- npm i --save-dev @types/react-router-dom
