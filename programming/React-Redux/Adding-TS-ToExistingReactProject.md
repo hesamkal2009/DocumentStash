@@ -6,4 +6,5 @@
 - npm install @types/react-redux
 - yarn add -D react-query-swagger
 - yarn remove prop-types
+- npm i ts-polyfill
 
