@@ -5,3 +5,5 @@
 - npm i --save-dev @types/react-router-dom
 - npm install @types/react-redux
 - yarn add -D react-query-swagger
+- yarn remove prop-types
+
