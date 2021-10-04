@@ -70,3 +70,5 @@ import 'ts-polyfill/lib/es2020-global-this';      // globalThis (no tsconfig.jso
 ---
 
 -   yarn add @types/lodash
+-   yarn remove joi-browser
+-   yarn add joi
